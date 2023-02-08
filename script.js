@@ -11,7 +11,9 @@ function toggleMode() {
 
     if (html.classList.contains('light')){
         img.setAttribute('src', './assets/up_re.png')
+        img.setAttribute('alt', 'foto de rosto do Eduardo, na formatura usando toga e sentado, com o capelo na cabeça.')
     } else {
         img.setAttribute('src', './assets/sit_re.png')
+        img.setAttribute('alt', 'foto de rosto e corpo do Eduardo, na formatura usando toga e de pé, segurando o capelo.')
     }
 }
